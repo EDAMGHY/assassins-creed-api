@@ -14,7 +14,7 @@ const SingleGamePage = ({
 
   useEffect(() => {
     fetchSingleGame(id);
-    document.title = `${singleGame.name}`;
+    document.title = 'games';
     setCurrent(document.title.toLowerCase());
     setGameCurrent(singleGame.name);
     // eslint-disable-next-line
