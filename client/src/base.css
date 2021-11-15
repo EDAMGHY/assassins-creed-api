@@ -107,3 +107,19 @@ body::-webkit-scrollbar-thumb {
     width: 250px;
   }
 }
+@media (max-width: 420px) {
+  .codeHow-1 {
+    display: none;
+  }
+  .codeHow-2 {
+    display: block;
+  }
+}
+@media (min-width: 420px) {
+  .codeHow-1 {
+    display: block;
+  }
+  .codeHow-2 {
+    display: none;
+  }
+}

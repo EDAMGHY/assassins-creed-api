@@ -101,7 +101,7 @@ const DocsInfo = () => {
                   text-white
                 '
         >
-          <code> https://localhost:5000/api/v1/ </code>
+          <code> https://react-assassins-creed.herokuapp.com/api/v1 </code>
         </div>
       </div>
       <h2
@@ -144,7 +144,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code> https://localhost:5000/api/games </code>
+          <code> /games </code>
         </div>
       </div>
       <div id='gameByID'>
@@ -172,7 +172,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code> https://localhost:5000/api/1 </code>
+          <code> /games/1 </code>
         </div>
       </div>
       <div id='gameByName'>
@@ -200,7 +200,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code> https://localhost:3000/api/assassinscreed </code>
+          <code> /games/game/assassinscreed </code>
         </div>
       </div>
       <div id='gameByEngine'>
@@ -228,7 +228,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code> http://localhost:5000/api/v1/games?engine=Anvil </code>
+          <code> /games?engine=Anvil </code>
         </div>
       </div>
       <div id='gameByRemastered'>
@@ -256,7 +256,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code> http://localhost:5000/api/v1/games?remastered=true </code>
+          <code> /games?remastered=true </code>
         </div>
       </div>
       <div id='gameByYear'>
@@ -284,7 +284,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code> http://localhost:5000/api/v1/games?year=2014 </code>
+          <code> /games?year=2014 </code>
         </div>
       </div>
       <div id='gameByDeveloper'>
@@ -312,9 +312,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code>
-            http://localhost:5000/api/v1/games?developer=Ubisoft Montreal
-          </code>
+          <code>/games?developer=Ubisoft Montreal</code>
         </div>
       </div>
       <div id='gameByPlatform'>
@@ -342,7 +340,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code>http://localhost:5000/api/v1/games?platform=PlayStation 4</code>
+          <code>/games?platform=PlayStation 4</code>
         </div>
       </div>
       <div id='gameByComposer'>
@@ -370,9 +368,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code>
-            http://localhost:5000/api/v1/games?composer=Austin Wintory
-          </code>
+          <code>/games?composer=Austin Wintory</code>
         </div>
       </div>
       <div id='gameBySort'>
@@ -400,7 +396,7 @@ const DocsInfo = () => {
                   text-xs
                 '
         >
-          <code>http://localhost:5000/api/v1/games?sort=desc</code>
+          <code>/games?sort=desc</code>
         </div>
       </div>
     </div>

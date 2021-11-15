@@ -45,10 +45,21 @@ const HowToUse = () => {
           <div className='flex justify-center items-center'>
             <div className='bg-gray-900 rounded-lg py-1 sm:px-28 px-3 text-white mt-8'>
               <pre className='sm:text-sm text-xs py-5'>
-                const <span className='text-varColor'>url</span> ={' '}
-                <span className='text-greenText underline'>
-                  'https://localhost:5000/api/v1'
-                </span>
+                <div className='codeHow-1 '>
+                  const <span className='text-varColor'>url</span> ={' '}
+                  <span className='text-greenText underline'>
+                    <br />
+                    'https://react-assassins-creed.herokuapp.com/api/v1/games'
+                  </span>
+                </div>
+                <div className='codeHow-2 '>
+                  const <span className='text-varColor'>url</span> ={' '}
+                  <span className='text-greenText underline'>
+                    <br />
+                    'https://react-assassins-creed <br />
+                    .herokuapp.com/api/v1/games'
+                  </span>
+                </div>
                 ;<br />
                 <br />
                 <span className='text-keyColor'>async</span>{' '}

@@ -49,13 +49,13 @@ const Footer = () => {
           </h1>
           <ul className='divide-y-4 divide-solid divide-light-hero mt-6 text-xl'>
             <li className='py-2 hover:text-hero'>
-              <a href='index.html'>Home</a>
+              <a href='/'>Home</a>
             </li>
             <li className='py-2 hover:text-hero'>
-              <a href='games.html'>Games</a>
+              <a href='/games'>Games</a>
             </li>
             <li className='py-2 hover:text-hero'>
-              <a href='docs.html'>Docs</a>
+              <a href='/docs'>Docs</a>
             </li>
           </ul>
         </div>
@@ -155,7 +155,8 @@ const Footer = () => {
       </div>
       <hr className='mt-8' />
       <p className='text-center mt-10 tracking-widest text-lg'>
-        &copy; Copyright 2021 All Rights Reserved By DAMRI ABDELLAH
+        &copy; Copyright {new Date().getFullYear()} All Rights Reserved By DAMRI
+        ABDELLAH
       </p>
     </footer>
   );

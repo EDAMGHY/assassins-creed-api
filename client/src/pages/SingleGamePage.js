@@ -226,12 +226,12 @@ const SingleGamePage = ({
                 font-bold
                 tracking-widest
                 text-lighter-hero
-                sm:text-xl
-                text-lg
+                sm:text-base
+                text-sm
               '
               >
                 Platforms :{' '}
-                <span className='text-gray-800'>{`${platforms} ,`}</span>
+                <span className='text-light'>{`${platforms} ,`}</span>
               </p>
               <p
                 className='
