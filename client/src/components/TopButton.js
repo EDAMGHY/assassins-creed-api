@@ -19,17 +19,18 @@ const TopButton = () => {
   return (
     <a
       href='#navbar'
-      className={`transform
-        -rotate-90
+      className={`
         fixed
         bottom-10
         right-8
         inline-block
         rounded-full
         bg-hero
-        p-2
-        sm:text-3xl
-        text-xl text-white
+       sm:px-4
+       sm:py-3
+        px-3
+       py-2
+       text-white
         ${show ? 'opacity-1' : 'opacity-0'}
         transition-opacity
         duration-300
@@ -37,7 +38,7 @@ const TopButton = () => {
         z-10`}
       id='planeBtn'
     >
-      <i className='fas fa-plane'></i>
+      <i className='fas sm:text-base text-sm fa-arrow-up'></i>
     </a>
   );
 };

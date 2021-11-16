@@ -14,8 +14,9 @@ const SingleGamePage = ({
 
   useEffect(() => {
     fetchSingleGame(id);
-    document.title = 'games';
-    setCurrent(document.title.toLowerCase());
+    let title = 'Games';
+    document.title = `${title} | ${singleGame.name}`;
+    setCurrent(title.toLowerCase());
     setGameCurrent(singleGame.name);
     // eslint-disable-next-line
   }, [singleGame.name, id]);
@@ -95,7 +96,7 @@ const SingleGamePage = ({
                   className='
                   font-roboto
                   text-gray-300
-                  tracking-wider
+                  tracking-widest
                   font-bold
                   sm:text-3xl
                   text-xl
@@ -110,7 +111,7 @@ const SingleGamePage = ({
                   font-roboto
                   capitalize
                   font-bold
-                  tracking-wider
+                 tracking-widest
                   text-lighter-hero
                   sm:text-base
                   text-sm

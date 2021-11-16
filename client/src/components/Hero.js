@@ -62,7 +62,7 @@ const Hero = () => {
                 sm:text-left
                 mb-6
                 w-11/12
-                tracking-widest
+                tracking-wider
               '
             >
               Assassin's Creed API is a simple API that provides to you all of
