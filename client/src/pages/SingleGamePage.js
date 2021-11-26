@@ -37,6 +37,8 @@ const SingleGamePage = ({
     website,
   } = singleGame;
 
+  console.log(platforms);
+
   return (
     <React.Fragment>
       <Header current={current} gameCurrent={gameCurrent} />
@@ -231,8 +233,41 @@ const SingleGamePage = ({
                 text-sm
               '
               >
-                Platforms :{' '}
-                <span className='text-light'>{`${platforms} ,`}</span>
+                Platforms :
+                {platforms
+                  ? platforms.map((pla) => {
+                      return (
+                        <span
+                          className={`text-light
+                  sm:text-base
+                  text-sm
+                  sm:mx-3 sm:my-2
+                  mx-1
+                  my-2
+                  inline-flex
+                  items-center
+                  justify-center
+                  px-2
+                  py-1
+                  leading-none
+                  ${
+                    pla.includes('Windows')
+                      ? 'bg-gray-600'
+                      : pla.includes('Play')
+                      ? 'bg-blue-700'
+                      : pla.includes('Xbox')
+                      ? 'bg-green-700'
+                      : pla.includes('Wii') || pla.includes('Nintendo')
+                      ? 'bg-red-700'
+                      : 'bg-black'
+                  }
+                  rounded`}
+                        >
+                          {pla}
+                        </span>
+                      );
+                    })
+                  : 'Loading platforms...'}
               </p>
               <p
                 className='

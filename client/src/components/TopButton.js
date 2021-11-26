@@ -26,10 +26,10 @@ const TopButton = () => {
         inline-block
         rounded-full
         bg-hero
-       sm:px-4
-       sm:py-3
-        px-3
-       py-2
+       sm:px-5
+       sm:py-4
+        px-4
+       py-3
        text-white
         ${show ? 'opacity-1' : 'opacity-0'}
         transition-opacity
